@@ -13,6 +13,7 @@
 </script>
 
 <style lang="scss">
-@import './assets/base.css';
+  @import '@/assets/base.css';
+  @import '@/assets/index.scss';  
 
 </style>

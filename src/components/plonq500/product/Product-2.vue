@@ -4,13 +4,13 @@
 				<div class="product-2-block__content">
 					<span class="product-2-block__title">ВСЕ КАК ВЫ ХОТЕЛИ </span>
 					<div class="product-2-block__parallax stop">
-						<img src="../../assets/img/plonq-preview.webp" alt="">
+						<img src="@/assets/img/plonq-preview.webp" alt="">
 					</div>
 				</div>
 				<ul class="product-2-block__ul">
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="../../assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
 							<span class="product-2-block__li-title">Без дыма</span>
@@ -19,7 +19,7 @@
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="../../assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
 							<span class="product-2-block__li-title">Без дыма</span>
@@ -28,7 +28,7 @@
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="../../assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
 							<span class="product-2-block__li-title">Без дыма</span>
@@ -37,7 +37,7 @@
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="../../assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
 							<span class="product-2-block__li-title">Без дыма</span>
@@ -55,8 +55,6 @@ export default {
 }
 </script>
 <style lang="scss">
-	@import '@/assets/base.css';
-  @import '@/assets/index.scss';
 	
 	.product-2{
 		background: #F2F2F2;
