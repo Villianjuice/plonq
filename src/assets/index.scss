@@ -13,3 +13,32 @@
 .section{
     overflow: hidden;
 }
+.layout{
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.button{
+    display: flex;
+    font-family: "Medium";
+    align-content: center;
+    justify-content: center;
+    min-height: 38px;
+    min-width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    box-sizing: border-box;
+    &--black{
+        font-family: GothamPro,sans-serif;
+        font-size: 13px;
+        line-height: 24px;
+        border-radius: 4px;
+        height: 40px;
+        min-width: 152px;
+        border: 1px solid rgba(0,0,0,0);
+    }
+}

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="product-7__block">
         <div class="product-7-top">
-          <span class="num">05</span>
+          <span class="num">04</span>
           <span class="tit">БЕЗОПАСНЫЙ СОСТАВ ЖИДКОСТИ</span>
         </div>
         <div class="product-7-content">

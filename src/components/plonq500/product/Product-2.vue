@@ -19,29 +19,29 @@
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Button_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
-							<span class="product-2-block__li-title">Без дыма</span>
-							<span class="product-2-block__li-text">Пар растворяется в воздухе и не оставляет запаха на одежде</span>
+							<span class="product-2-block__li-title">Без кнопок</span>
+							<span class="product-2-block__li-text">Plonq автоматически включается при каждой затяжке</span>
 						</div>
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Service_icon.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
-							<span class="product-2-block__li-title">Без дыма</span>
-							<span class="product-2-block__li-text">Пар растворяется в воздухе и не оставляет запаха на одежде</span>
+							<span class="product-2-block__li-title">Без обслуживания</span>
+							<span class="product-2-block__li-text">Устройство не нужно подзаряжать или заполнять жидкостью</span>
 						</div>
 					</li>
 					<li class="product-2-block__li">
 						<div class="icon">
-							<img src="@/assets/img/No_Smoke_icon.svg" alt="">
+							<img src="@/assets/img/No_Loose.svg" alt="">
 						</div>
 						<div class="product-2-block__li-info">
-							<span class="product-2-block__li-title">Без дыма</span>
-							<span class="product-2-block__li-text">Пар растворяется в воздухе и не оставляет запаха на одежде</span>
+							<span class="product-2-block__li-title">Не страшно потерять</span>
+							<span class="product-2-block__li-text">Предназначены для одноразового использования</span>
 						</div>
 					</li>
 				</ul>
@@ -127,6 +127,10 @@ export default {
 				display: flex;
 				justify-content: center;
 				min-width: 48px;
+				img{
+				min-width: 48px;
+
+				}
 			}
 		}
 	}

@@ -1,4 +1,5 @@
 <template >
+  <Header/>
   <section>
     <div class="container">
       <div class="box1_word">
@@ -35,11 +36,13 @@
   
 </template>
 <script>
+import Header from '../components/header.vue'
+import Footer from '../components/footer.vue'
 export default {
-  
+    components: {Header, Footer},
 }
 </script>
-<style >
+<style lang="scss" >
   .h1_box1{
     font-family: 'Gotham Pro';
     font-style: normal;
@@ -80,9 +83,15 @@ export default {
   width: 150px;
   height: 40px;
   border-radius: 4px;
+  color: #FFFFFF;
   position: absolute;
   top: 690px;
   left: 677px;
+  &:hover{
+    background: white;
+    color: #000000;
+
+  }
 }
 .btn1 p {
   position: absolute;
@@ -96,7 +105,6 @@ export default {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
 }
 
 

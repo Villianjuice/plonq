@@ -3,7 +3,7 @@
     <div class="container">
       <div class="product-6__block">
         <div class="product-6-top">
-          <span class="num">04</span>
+          <span class="num">05</span>
           <span class="tit">КАЧЕСТВЕННЫЕ КОМПОНЕНТЫ</span>
         </div>
         <div class="product-6-content">

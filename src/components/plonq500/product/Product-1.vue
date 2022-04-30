@@ -21,8 +21,6 @@ export default {
 }
 </script>
 <style lang="scss">
-  @import '@/assets/base.css';
-  @import '@/assets/index.scss';
   .product-1{
     height: calc(100vh - 64px);
     max-height: 1080px;

@@ -1,7 +1,8 @@
 <template lang="">
     <div>
-        <main>
-        <section>
+        <Header/>
+        <main class="device">
+        <section c>
             <div class="container1">
                 <div class="box1_word">
                     <h1 class="box1_h1">Проблема</h1>
@@ -69,14 +70,23 @@
             <img src="../img/renewal_img-mobile-1x.webp" alt="" class="box5_img">
         </section>
     </main>
+
     </div>
 </template>
 <script>
+import Header from '../components/header.vue'
+import Footer from '../components/footer.vue'
 export default {
-    
+    components: {Header, Footer},
 }
 </script>
 <style lang="scss">
+    .device{
+        width: 1400px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
     .box1_word{
         color: #000000;
         position: absolute;
@@ -196,6 +206,10 @@ export default {
         left: 176px;
         top: 1890px;
         background: #F9F9F9;
+        margin: 0 auto;
+    }
+    .container1, .container2, .container4{
+        margin: 0 auto;
     }
     .box3_word{
         position: absolute;
@@ -364,6 +378,11 @@ export default {
             position: absolute;
             top:1690px;
             left: 45px;
+        }
+        .container1{
+            max-width: 1406px;
+            width: 100%;
+            margin: 0 auto;
         }
         
     }
